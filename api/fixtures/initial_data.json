@@ -179,28 +179,6 @@
     "model": "api.parameter",
     "pk": 13,
     "fields": {
-        "denon_code": "OPT",
-        "readable_name": "Option",
-        "description": null,
-        "command": 4,
-        "icon_code": "cogs"
-    }
-},
-{
-    "model": "api.parameter",
-    "pk": 14,
-    "fields": {
-        "denon_code": "INF",
-        "readable_name": "Info",
-        "description": null,
-        "command": 4,
-        "icon_code": "info"
-    }
-},
-{
-    "model": "api.parameter",
-    "pk": 15,
-    "fields": {
         "denon_code": "MEN ON",
         "readable_name": "Show menu",
         "description": null,
@@ -210,7 +188,7 @@
 },
 {
     "model": "api.parameter",
-    "pk": 16,
+    "pk": 14,
     "fields": {
         "denon_code": "MEN OFF",
         "readable_name": "Hide menu",
