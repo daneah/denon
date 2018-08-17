@@ -2,6 +2,7 @@
 
 A flexible, browser-based controller for Denon A/V Receivers in Django + Vue.js
 
+![screenshot of interface](screenshot.png)
 
 ## Installation
 
@@ -46,7 +47,10 @@ you can visit http://localhost:8080 to see the interface.
 To add commands and parameters that are supported by your DENON,
 go to http://localhost:8000/admin.
 
+Commands and parameters can select an icon from the [free Font Awesome gallery](https://fontawesome.com/icons?d=gallery&m=free).
 
-## Coming soon
+
+## Coming eventually
 
 * Dockerfile and Kubernetes YAML file as a "quickstart" option.
+* Live status of commands that support it, such as Mute and Power.
