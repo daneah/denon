@@ -54,3 +54,11 @@ Commands and parameters can select an icon from the [free Font Awesome gallery](
 
 * Dockerfile and Kubernetes YAML file as a "quickstart" option.
 * Live status of commands that support it, such as Mute and Power.
+
+
+## For discussion
+
+* The application sometimes chokes trying to connect to a Denon for status queries (`MV?`, `PW?`, etc)
+  * Does this have to do with initiating a new `telnet` connection each time?
+  * Is there an elegant way to persist the `telnet` connection? Perhaps an attempt to connect on application startup (in `settings.py`, for example) is better. This would also provide an opportunity to raise an immediate error if the Denon's IP is misconfigured/not reachable.
+* How best to model and present commands that have binary/opposing parameters, e.g. ON/OFF or an array of input sources?
