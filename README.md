@@ -9,6 +9,10 @@ A flexible, browser-based controller for Denon A/V Receivers in Django + Vue.js
 $ git clone git@github.com:daneah/denon.git
 $ cd denon/
 $ pipenv install
+$ cat << EOF > .env
+SECRET_KEY=denon
+DEBUG=TRUE
+DENON_IP_ADDRESS=<your Denon's IP address>
 $ pipenv run ./manage.py migrate
 $ cd frontend/
 $ npm install
