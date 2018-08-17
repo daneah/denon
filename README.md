@@ -1,6 +1,6 @@
 # denon
 
-A flexible, browser-based controller for Denon A/V Receivers in Django + Vue.js
+A partial, flexible, browser-based implementation of the [Denon AVR Control Protocol](https://usa.denon.com/us/product/hometheater/receivers/avr3808ci?docname=AVR-3808CISerialProtocol_Ver520a.pdf) in Django + Vue.js
 
 ![screenshot of interface](screenshot.png)
 
