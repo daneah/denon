@@ -1,0 +1,222 @@
+[
+{
+    "model": "api.command",
+    "pk": 1,
+    "fields": {
+        "denon_code": "MU",
+        "readable_name": "Mute",
+        "description": null,
+        "queryable": true,
+        "icon_code": "volume-off"
+    }
+},
+{
+    "model": "api.command",
+    "pk": 2,
+    "fields": {
+        "denon_code": "MV",
+        "readable_name": "Volume",
+        "description": null,
+        "queryable": true,
+        "icon_code": "volume-up"
+    }
+},
+{
+    "model": "api.command",
+    "pk": 3,
+    "fields": {
+        "denon_code": "PW",
+        "readable_name": "Power",
+        "description": null,
+        "queryable": true,
+        "icon_code": "power-off"
+    }
+},
+{
+    "model": "api.command",
+    "pk": 4,
+    "fields": {
+        "denon_code": "MN",
+        "readable_name": "Menu",
+        "description": null,
+        "queryable": false,
+        "icon_code": "list"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 1,
+    "fields": {
+        "denon_code": "ON",
+        "readable_name": "Muted",
+        "description": null,
+        "command": 1,
+        "icon_code": "volume-off"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 2,
+    "fields": {
+        "denon_code": "OFF",
+        "readable_name": "Unmuted",
+        "description": null,
+        "command": 1,
+        "icon_code": "volume-up"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 3,
+    "fields": {
+        "denon_code": "UP",
+        "readable_name": "Down",
+        "description": null,
+        "command": 2,
+        "icon_code": "volume-down"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 4,
+    "fields": {
+        "denon_code": "DOWN",
+        "readable_name": "Up",
+        "description": null,
+        "command": 2,
+        "icon_code": "volume-up"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 5,
+    "fields": {
+        "denon_code": "ON",
+        "readable_name": "On",
+        "description": null,
+        "command": 3,
+        "icon_code": "toggle-on"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 6,
+    "fields": {
+        "denon_code": "STANDBY",
+        "readable_name": "Off",
+        "description": null,
+        "command": 3,
+        "icon_code": "toggle-off"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 7,
+    "fields": {
+        "denon_code": "CUP",
+        "readable_name": "Up",
+        "description": null,
+        "command": 4,
+        "icon_code": "chevron-up"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 8,
+    "fields": {
+        "denon_code": "CDN",
+        "readable_name": "Down",
+        "description": null,
+        "command": 4,
+        "icon_code": "chevron-down"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 9,
+    "fields": {
+        "denon_code": "CLT",
+        "readable_name": "Left",
+        "description": null,
+        "command": 4,
+        "icon_code": "chevron-left"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 10,
+    "fields": {
+        "denon_code": "CRT",
+        "readable_name": "Right",
+        "description": null,
+        "command": 4,
+        "icon_code": "chevron-right"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 11,
+    "fields": {
+        "denon_code": "ENT",
+        "readable_name": "Enter",
+        "description": null,
+        "command": 4,
+        "icon_code": "check"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 12,
+    "fields": {
+        "denon_code": "RTN",
+        "readable_name": "Return",
+        "description": null,
+        "command": 4,
+        "icon_code": "undo"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 13,
+    "fields": {
+        "denon_code": "OPT",
+        "readable_name": "Option",
+        "description": null,
+        "command": 4,
+        "icon_code": "cogs"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 14,
+    "fields": {
+        "denon_code": "INF",
+        "readable_name": "Info",
+        "description": null,
+        "command": 4,
+        "icon_code": "info"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 15,
+    "fields": {
+        "denon_code": "MEN ON",
+        "readable_name": "Show menu",
+        "description": null,
+        "command": 4,
+        "icon_code": "bars"
+    }
+},
+{
+    "model": "api.parameter",
+    "pk": 16,
+    "fields": {
+        "denon_code": "MEN OFF",
+        "readable_name": "Hide menu",
+        "description": null,
+        "command": 4,
+        "icon_code": "times"
+    }
+}
+]
