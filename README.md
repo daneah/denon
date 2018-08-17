@@ -13,6 +13,7 @@ $ cat << EOF > .env
 SECRET_KEY=denon
 DEBUG=TRUE
 DENON_IP_ADDRESS=<your Denon's IP address>
+EOF
 $ pipenv run ./manage.py migrate
 $ cd frontend/
 $ npm install
