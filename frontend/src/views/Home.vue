@@ -38,7 +38,7 @@ export default {
     }
   },
   mounted () {
-    axios.get('/api/')
+    axios.get('http://localhost:8000/api/')
       .then((response) => {
         this.commands = response.data.commands
         this.commands.forEach((command) => {
@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     fetchParameters (commandCode) {
-      axios.get(`/api/command/${commandCode}`)
+      axios.get(`http://localhost:8000/api/command/${commandCode}/`)
         .then((response) => {
           Vue.set(this.parametersByCommand, commandCode, response.data.parameters)
         })
@@ -60,7 +60,7 @@ export default {
         })
     },
     queryCommandStatus (commandCode) {
-      axios.get(`/api/command/${commandCode}/query/`)
+      axios.get(`http://localhost:8000/api/command/${commandCode}/query/`)
         .then((response) => {
           console.log(response.data) // eslint-disable-line no-console
         })

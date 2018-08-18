@@ -40,9 +40,7 @@ $ npm run serve
 
 ## Using
 
-The frontend is set up to proxy requests to the backend,
-so with the frontend and backend servers running
-you can visit http://localhost:8080 to see the interface.
+Visit http://localhost:8080 to see the interface.
 
 To add commands and parameters that are supported by your DENON,
 go to http://localhost:8000/admin.

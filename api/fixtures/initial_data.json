@@ -69,7 +69,7 @@
     "model": "api.parameter",
     "pk": 3,
     "fields": {
-        "denon_code": "UP",
+        "denon_code": "DOWN",
         "readable_name": "Down",
         "description": null,
         "command": 2,
@@ -80,7 +80,7 @@
     "model": "api.parameter",
     "pk": 4,
     "fields": {
-        "denon_code": "DOWN",
+        "denon_code": "UP",
         "readable_name": "Up",
         "description": null,
         "command": 2,
