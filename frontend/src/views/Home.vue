@@ -72,8 +72,15 @@ export default {
 <style lang="scss" scoped>
 .commands {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+
+  @media (min-width: 500px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 800px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .command {
